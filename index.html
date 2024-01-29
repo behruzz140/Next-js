@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="bg-[#ECF4FF]">
+    <header>
+      <div class="container mx-auto px-4 py-4 flex mb-[40px]">
+        <img src="./assets/images/Logo (4).svg" alt="smthimg" />
+        <button
+          class="bg-black ml-[117px] text-white flex gap-[12px] py-[12px] px-[19px] rounded-lg"
+        >
+          <img src="./assets/images/menu.svg" alt="smthimg" />Katalog
+        </button>
+        <div class="relative ml-[60px]">
+          <input
+            type="text"
+            placeholder="Maxsulotlarni izlash"
+            class="pl-[18px] py-[14px] w-[396px]"
+          />
+          <button
+            class="bg-[#0D63F3] py-[15px] px-[18px] rounded-r-lg absolute top-[-1px] left-[339px]"
+          >
+            <img
+              class="w-[24px] h-[24px]"
+              src="./assets/images/search.svg"
+              alt="smthimg"
+            />
+          </button>
+        </div>
+        <div class="py-[11px] px-[11px] bg-[#ECF4FF] rounded-lg ml-[135px]">
+          <img src="./assets/images/heart.svg" alt="smthimg" />
+        </div>
+        <div class="py-[11px] px-[11px] bg-[#ECF4FF] rounded-lg ml-[26px]">
+          <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+        </div>
+        <button class="py-[13px] px-[30px] bg-pink-200 rounded-xl ml-[59px]">
+          Kirish
+        </button>
+      </div>
+    </header>
+
+    <!--------------- Intro Section ---------------->
+    <section id="intro">
+      <div class="container mx-auto px-4">
+        <div class="intro__wrapper flex items-center gap-[20px] mb-[76px]">
+          <div class="py-[9px] px-[9px] bg-purple-400 rounded-[50%]">
+            <img src="./assets/images/left.svg" alt="smthimg" />
+          </div>
+          <div><img src="./assets/images/carousel.png" alt="smthimg" /></div>
+          <div class="py-[9px] px-[9px] bg-purple-400 rounded-[50%]">
+            <img src="./assets/images/right.svg" alt="smthimg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------ Section Intro ---------------->
+    <!------------- Section Category ------------->
+    <section id="category">
+      <div class="container mx-auto px-4">
+        <h2 class="text-[28px]">Kategoriyalar</h2>
+        <div class="category__wrapper flex gap-[20px] mb-[20px]">
+          <div
+            class="category__card max-w-[150px] h-[200px] bg-white rounded-md py-[18px] px-[20px]"
+          >
+            <img src="./assets/images/iphone.png" alt="smthimg" />
+            <p class="text-[20px] mt-[9px] mx-auto">Smartfonlar</p>
+          </div>
+
+          <div
+            class="category__card max-w-[150px] h-[200px] bg-white rounded-md py-[18px] px-[20px]"
+          >
+            <img src="./assets/images/laptop.png" alt="smthimg" />
+            <p class="text-[16px] mt-[9px] mx-auto">
+              Kompyuterlar va notebooklar
+            </p>
+          </div>
+
+          <div
+            class="category__card max-w-[150px] h-[200px] bg-white rounded-md py-[18px] px-[20px]"
+          >
+            <img src="./assets/images/tv.png" alt="smthimg" />
+            <p class="text-[20px] mt-[9px] mx-auto">Televizorlar</p>
+          </div>
+
+          <div
+            class="category__card max-w-[150px] h-[200px] bg-white rounded-md py-[18px] px-[20px]"
+          >
+            <img src="./assets/images/iwatch.png" alt="smthimg" />
+            <p class="text-[20px] mt-[9px] mx-auto">Aqlli soatlar</p>
+          </div>
+
+          <div
+            class="category__card max-w-[150px] h-[200px] bg-white rounded-md py-[18px] px-[20px]"
+          >
+            <img src="./assets/images/airpods.png" alt="smthimg" />
+            <p class="text-[20px] mt-[9px] mx-auto">Quloqchinlar</p>
+          </div>
+
+          <div
+            class="category__card max-w-[150px] h-[200px] bg-white rounded-md py-[18px] px-[20px]"
+          >
+            <img src="./assets/images/konditsioner.png" alt="smthimg" />
+            <p class="text-[20px] mt-[9px] mx-auto">Konditsioner</p>
+          </div>
+
+          <div
+            class="category__card max-w-[150px] h-[200px] bg-white rounded-md py-[18px] px-[20px]"
+          >
+            <img src="./assets/images/muzlatgich.png" alt="smthimg" />
+            <p class="text-[20px] mt-[9px] mx-auto">Sovutkichlar</p>
+          </div>
+
+          <div
+            class="category__card max-w-[150px] h-[200px] bg-white rounded-md py-[18px] px-[20px]"
+          >
+            <img src="./assets/images/kirmashinasi.png" alt="smthimg" />
+            <p class="text-[20px] mt-[9px] mx-auto">Kir yuvish mashinalari</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------ Section Category ---------------->
+    <!------------ Eng Section ------------->
+    <section id="eng">
+      <div class="container mx-auto px-4">
+        <h2 class="text-[28px]">Eng ko’p sotilgan</h2>
+        <div class="card__wrapper flex gap-[30px] mt-[44px]">
+        <!-- dynamic cards -->
+        </div>
+
+        <div class="card__wrapper flex gap-[30px] mt-[44px]">
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------- Eng Section ------------->
+
+    <!-------------- Dom Section -------------->
+    <section id="dom">
+      <div class="container mx-auto px-4">
+        <div
+          class="intro__wrapper flex items-center gap-[20px] mb-[76px] mt-[80px]"
+        >
+          <div class="py-[9px] px-[9px] bg-purple-400 rounded-[50%]">
+            <img src="./assets/images/left.svg" alt="smthimg" />
+          </div>
+          <div><img src="./assets/images/carousel2.png" alt="smthimg" /></div>
+          <div class="py-[9px] px-[9px] bg-purple-400 rounded-[50%]">
+            <img src="./assets/images/right.svg" alt="smthimg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------- Dom Section -------------->
+    <!-------------------  Ommabop Section --------------->
+    <section id="ommabop">
+      <div class="container mx-auto px-4">
+        <h2 class="text-[28px]">Eng ommabop</h2>
+        <div class="card__wrapper flex gap-[30px] mt-[44px]">
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card__wrapper flex gap-[30px] mt-[44px]">
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+
+          <div class="card w-[230px] h-[400px] p-[10px] bg-white">
+            <img src="./assets/images/macbook.png" alt="smthimg" />
+            <p class="text-[18px] text-[#0D63F3] mb-[6px]">299 000 so’m</p>
+            <p class="text-[14px] mb-[33px]">
+              Apple Airpods Pro simsiz quloqchin , Oq rangda
+            </p>
+            <p class="text-[14px] text-black opacity-30">1230 ta buyurtma</p>
+            <div class="mt-[25px] flex gap-[20px]">
+              <button
+                class="text-[16px] bg-[#0D63F3] py-[10px] px-[20px] rounded-xl text-white"
+              >
+                Sotib olish
+              </button>
+              <img src="./assets/images/shopping_cart.svg" alt="smthimg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------- Ommabop Section -------------->
+    <!----------------- Brand Section ----------------->
+    <section id="brand">
+      <div class="container mx-auto px-4">
+        <h2 class="text-[28px] mt-[60px]">Brendlar bo’yicha</h2>
+        <div class="brand__wrapper mt-[80px] flex gap-[20px]">
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/hp.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/acer.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/asus.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/samsung.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/apple.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/msi.png" alt="smthimg" />
+          </div>
+        </div>
+
+        <div class="brand__wrapper mt-[20px] flex gap-[20px]">
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/mi.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/vivo.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+        </div>
+
+        <div class="brand__wrapper mt-[20px] flex gap-[20px]">
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- Brand Section ------------->
+    <!-------------- Dom Section -------------->
+    <section id="dom">
+      <div class="container mx-auto px-4">
+        <div
+          class="intro__wrapper flex items-center gap-[20px] mb-[76px] mt-[80px]"
+        >
+          <div class="py-[9px] px-[9px] bg-purple-400 rounded-[50%]">
+            <img src="./assets/images/left.svg" alt="smthimg" />
+          </div>
+          <div><img src="./assets/images/carousel2.png" alt="smthimg" /></div>
+          <div class="py-[9px] px-[9px] bg-purple-400 rounded-[50%]">
+            <img src="./assets/images/right.svg" alt="smthimg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------- Dom Section -------------->
+    <!------------- Do'kon Section -------------->
+    <section id="dokon">
+      <div class="container mx-auto px-4">
+        <div class="brand__wrapper mt-[20px] flex gap-[20px]">
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/elmakon.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/texnomart.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/mediapark.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/sandiq.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/goodzone.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+        </div>
+
+        <div class="brand__wrapper mt-[20px] mb-[60px] flex gap-[20px]">
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+
+          <div class="brand_card px-[49px] py-[5px] bg-white w-[188px]">
+            <img src="./assets/images/shax.png" alt="smthimg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------ Dokon Section -------------->
+    <!-------------- Footer ------------->
+    <footer class="bg-gradient-to-r from-[rgba(77,94,246,0.20)] to-[rgba(246,77,77,0.20)] pt-[60px]">
+      <div class="container mx-auto px-4">
+        <div class="footer__wrapper flex justify-between pb-[51px] border-b-2">
+          <div class="footer__left flex gap-[20px]">
+            <ul class="w-[189px] flex flex-col gap-[20px]">
+              <li class="font-bold">Hujjatlar</li>
+              <li>Umumiy shartlar</li>
+              <li>Ofertalar arxivi</li>
+              <li>Nizom</li>
+              <li>Guvohnoma</li>
+            </ul>
+            <ul class="w-[189px] flex flex-col gap-y-[20px]">
+              <li class="font-bold">Servis</li>
+              <li>Do’konlar</li>
+              <li>Biz haqimizda</li>
+              <li>Hamkorlik uchun</li>
+              <li>Qaytarish</li>
+              <li>Promokodlar</li>
+            </ul>
+            <ul class="w-[189px] flex flex-col gap-y-[20px]">
+              <li class="font-bold">Mahsulotlar katalogi</li>
+              <li>Katalog 1</li>
+              <li>Katalog 1</li>
+              <li>Katalog 2</li>
+              <li>Katalog 2</li>
+              <li>Katalog 3</li>
+              <li>Katalog 3</li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <ul class="flex flex-col gap-[20px] w-[335px]">
+              <li class="font-bold ">Axbarot xizmati</li>
+              <li>contact.@nextstore.uz</li>
+              <li>+998 97 712 96 96 +998 95 503 09 09</li>
+              <li>Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston</li>
+              <li class="flex gap-[26px]">
+                <img src="./assets/images/Facebook - Original.svg" alt="smthimg">
+                <img src="./assets/images/instagram.svg" alt="smthimg">
+                <img src="./assets/images/telegram.svg" alt="smthimg">
+                <img src="./assets/images/TikTok - Original.svg" alt="smthimg">
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom flex justify-between p-[39px]">
+          <p>2022  Nextstore.com</p>
+          <p>Powered by </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
